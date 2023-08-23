@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.971ca101.css",
+    "main.js": "./static/js/main.52053aef.js",
+    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
+    "static/media/tree.png": "./static/media/tree.90291351799a57bfe6b5.png",
+    "static/media/pinzhuanoishii.png": "./static/media/pinzhuanoishii.a21fab39b390174f4210.png",
+    "static/media/In-time.png": "./static/media/In-time.a67b0d6476d700274a89.png",
+    "static/media/naruto.png": "./static/media/naruto.b227d961509e3abd9e61.png",
+    "static/media/TailwindCSS_practice.png": "./static/media/TailwindCSS_practice.60293cf41e42cf3f2a71.png",
+    "static/media/react_js.png": "./static/media/react_js.2f2532db663fd5ec5f95.png",
+    "static/media/tailwindcss_logo.png": "./static/media/tailwindcss_logo.d4e39d8ab3d7ba7adb00.png",
+    "static/media/sass_logo.png": "./static/media/sass_logo.aa16d6441e3e941f60c1.png",
+    "static/media/css3_logo.png": "./static/media/css3_logo.19c8605d6b2861f5fbe0.png",
+    "static/media/dev-ed-wave.png": "./static/media/dev-ed-wave.96fe79664ed9e871bb6f.png",
+    "static/media/less_logo.png": "./static/media/less_logo.1bc2618099dc6271ddce.png",
+    "static/media/Burtons.otf": "./static/media/Burtons.c46a2405716f236c4a9a.otf",
+    "static/media/html5_logo.png": "./static/media/html5_logo.6ea4d06d4df1aade1da4.png",
+    "static/media/npm_logo.png": "./static/media/npm_logo.061e65dec1a5ceee089a.png",
+    "index.html": "./index.html",
+    "main.971ca101.css.map": "./static/css/main.971ca101.css.map",
+    "main.52053aef.js.map": "./static/js/main.52053aef.js.map",
+    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.971ca101.css",
+    "static/js/main.52053aef.js"
+  ]
+}
