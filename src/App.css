@@ -1,0 +1,113 @@
+@import 'animate.css';
+
+
+.si:hover .ani{
+    animation-name: top_to_bot;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.ani {
+    background-color: #D0D7E2;
+    box-shadow: inset 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.si:hover .detail>.li1 {
+    animation-name: li_animation;
+    animation-duration: 0.3s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    box-shadow: inset 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.si:hover .detail>.li2 {
+    animation-name: li_animation;
+    animation-duration: 0.3s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+    box-shadow: inset 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.si:hover .detail>.li3 {
+    animation-name: li_animation;
+    animation-duration: 0.3s;
+    animation-delay: 2.9s;
+    animation-fill-mode: forwards;
+    box-shadow: inset 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.si:hover .detail>.li4 {
+    animation-name: li_animation;
+    animation-duration: 0.3s;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    box-shadow: inset 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.si:hover .detail>.li5 {
+    animation-name: li_animation;
+    animation-duration: 0.3s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+    box-shadow: inset 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.mask_trigger {
+     
+}
+
+.mask {
+    transition: all 0.7s;
+    opacity: 0;
+    
+}
+
+.mask_trigger:hover .mask{
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    
+}
+
+.mask_trigger:hover .image_scale {
+    width: 110%;
+    height: 110%;
+}
+
+.image_scale {
+    transition: all 0.7s;
+}
+
+
+
+
+
+
+
+@keyframes top_to_bot {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        bottom: 100%;
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+        bottom: 0%;    
+    }
+}
+
+
+@keyframes li_animation {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1; 
+    }
+}
