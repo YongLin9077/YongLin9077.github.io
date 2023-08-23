@@ -37,7 +37,9 @@ function App() {
               <li>
                 <a
                   className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2  ml-8'
-                  href="#"
+                  href="https://yonglin9077.github.io/resume/resume.pdf"
+                  target='_blank'
+                  rel="noopener noreferrer"
                 >
                   Resume
                 </a>
@@ -53,7 +55,7 @@ function App() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-            <a href="https://github.com/YongLin9077" target='_blank'>
+            <a href="https://github.com/YongLin9077" target='_blank' rel="noopener noreferrer">
               <BsGithub />
             </a>
             
@@ -270,7 +272,7 @@ function App() {
             className='basis-1/3 flex-1 relative w-full transition-all duration-700 mask_trigger rounded-lg overflow-hidden'
             >
               <img src={in_time} alt="" className='w-full h-full object-cover rounded-lg image_scale'/>
-              <a href="">
+              <a href="https://yonglin9077.github.io/In-time/" target='_blank' rel="noopener noreferrer">
                 <div className='mask w-full h-full flex flex-col items-center justify-center absolute top-0 left-0 
                 rounded-lg text-white p-20 text-center'>
                   <h3 className='xl:text-4xl lg:text-2xl ss:text-4xl xs:text-2xl'>專題名稱:</h3>
@@ -287,7 +289,7 @@ function App() {
             className='basis-1/3 flex-1 relative w-full transition-all duration-700 mask_trigger rounded-lg overflow-hidden'
             >
               <img src={mullet_roe} alt="" className='w-full h-full object-cover rounded-lg image_scale'/>
-              <a href="https://pinzhuanoishii.github.io/">
+              <a href="https://pinzhuanoishii.github.io/" target='_blank' rel="noopener noreferrer">
                 <div className='mask w-full h-full flex flex-col items-center justify-center absolute top-0 left-0 
                 rounded-lg text-white p-20 text-center'>
                   <h3 className='xl:text-4xl lg:text-3xl ss:text-4xl xs:text-3xl'>專題名稱:</h3>
@@ -303,7 +305,7 @@ function App() {
             className='basis-1/3 flex-1 relative w-full transition-all duration-700 mask_trigger rounded-lg overflow-hidden'
             >
               <img src={tailwindcss_practice} alt="" className='w-full h-full object-cover rounded-lg image_scale'/>
-              <a href="">
+              <a href="https://yonglin9077.github.io/tailwindcss_practice/" target='_blank' rel="noopener noreferrer">
                 <div className='mask w-full h-full flex flex-col items-center justify-center absolute top-0 left-0 
                 rounded-lg text-white p-20 text-center'>
                   <h3 className='text-4xl'>專題名稱:</h3>
@@ -319,7 +321,7 @@ function App() {
             className='basis-1/3 flex-1 relative w-full transition-all duration-700 mask_trigger rounded-lg overflow-hidden'
             >
               <img src={naruto} alt="" className='w-full h-full object-cover rounded-lg image_scale'/>
-              <a href="https://stumail.nutn.edu.tw/s10859018/index.html" target='_blank'>
+              <a href="https://stumail.nutn.edu.tw/s10859018/index.html" target='_blank' rel="noopener noreferrer">
                 <div className='mask w-full h-full flex flex-col items-center justify-center absolute top-0 left-0 
                 rounded-lg text-white p-20 text-center'>
                   <h3 className='text-4xl'>專題名稱:</h3>
